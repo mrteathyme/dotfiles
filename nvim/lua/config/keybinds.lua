@@ -1,5 +1,5 @@
 local function init()
-	vim.g.mapleader = "<Space>"
+	vim.g.mapleader = " "
 end
 
 return {
