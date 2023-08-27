@@ -11,7 +11,7 @@ local function init()
 
 	rt.setup({
   		server = {
-			standalone = false
+			standalone = false,
     			on_attach = function(_, bufnr)
       			-- Hover actions
       				vim.keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
